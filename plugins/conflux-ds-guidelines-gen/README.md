@@ -1,4 +1,6 @@
-# conflux-ds-guidelines-gen
+# Conflux Design System Guidelines Generator
+
+Nome per l'installazione: `conflux-ds-guidelines-gen`.
 
 > **Versione 0.1.0, in rifinitura.** La skill è in uso ma cambia spesso. Questa versione non è ancora stata provata su un file Figma reale dopo le ultime modifiche.
 
