@@ -1,0 +1,16 @@
+{
+  "name": "conflux-skills",
+  "owner": {
+    "name": "Conflux"
+  },
+  "metadata": {
+    "description": "Skill di Claude per i processi di design UX e UI di Conflux."
+  },
+  "plugins": [
+    {
+      "name": "conflux-ds-guidelines-gen",
+      "source": "./plugins/conflux-ds-guidelines-gen",
+      "description": "Documenta le regole di un design system in Figma e produce Regolamento, Guida di onboarding e Violazioni."
+    }
+  ]
+}

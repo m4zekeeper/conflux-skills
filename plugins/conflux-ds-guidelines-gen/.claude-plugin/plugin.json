@@ -1,0 +1,8 @@
+{
+  "name": "conflux-ds-guidelines-gen",
+  "description": "Documenta le regole di un design system in Figma e produce Regolamento, Guida di onboarding e Violazioni.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Conflux"
+  }
+}
