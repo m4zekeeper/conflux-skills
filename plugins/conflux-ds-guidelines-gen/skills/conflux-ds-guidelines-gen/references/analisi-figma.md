@@ -133,7 +133,7 @@ Un valore che non rientra in nessuna categoria si registra come categoria nuova 
 
 Un asse che porta significati diversi in componenti diversi è un conflitto, anche quando il nome è lo stesso ovunque. Riportalo all'intervista con l'elenco dei componenti per ogni significato.
 
-Fai lo stesso controllo al contrario: un significato espresso con nomi diversi (selezione come `Active`, `Selected`, `State=Active`) è un conflitto quando nessun nome raggiunge i due terzi dei componenti con quel significato. Se un nome li raggiunge, è la convenzione dominante e gli altri nomi sono deviazioni.
+Fai lo stesso controllo al contrario: un significato espresso con nomi diversi (selezione come `Active`, `Selected`, `State=Active`) è un conflitto quando nessun nome raggiunge i due terzi dei componenti con quel significato. Se un nome li raggiunge, è la convenzione dominante e gli altri nomi sono deviazioni. Un significato può comparire sia in un asse con più significati sia in questo controllo. In quel caso l'inventario lo registra una volta sola, con tutti i nomi che lo esprimono, e l'intervista lo decide in una sola domanda (`references/intervista.md`, *Significati condivisi fra più domande*).
 
 Registra anche i nomi già occupati da pagine, collection e gruppi di variabili. L'intervista li usa per non proporre un nome nuovo che esiste già con un altro significato.
 

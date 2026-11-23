@@ -2,7 +2,7 @@
 
 Nome per l'installazione: `conflux-ds-guidelines-gen`.
 
-> **Versione 0.1.1, in rifinitura.** La skill è in uso ma cambia spesso. È stata provata su un file Figma reale, e le correzioni emerse dalla prova sono in corso.
+> **Versione 0.2.0, in rifinitura.** La skill è in uso ma cambia spesso. È stata provata su un file Figma reale, e le correzioni emerse dalla prova sono in corso.
 
 ## A cosa serve
 
