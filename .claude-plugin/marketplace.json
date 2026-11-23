@@ -1,10 +1,10 @@
 {
   "name": "conflux-skills",
   "owner": {
-    "name": "Conflux"
+    "name": "m4zekeeper"
   },
   "metadata": {
-    "description": "Skill di Claude per i processi di design UX e UI di Conflux."
+    "description": "Skill di Claude per i processi di design UX e UI di Conflux, create da un designer dello studio. Progetto personale, non ufficiale."
   },
   "plugins": [
     {
