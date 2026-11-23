@@ -1,10 +1,6 @@
 # Conflux Skills
 
-Questo repository raccoglie le skill di Claude che ho creato per i processi di design UX e UI di Conflux. Sono un designer dello studio: le skill partono dal modo in cui lavoriamo in Conflux e servono ai miei colleghi designer.
-
-Il repository è un progetto personale, non un repository ufficiale di Conflux. Lo mantengo io, [m4zekeeper](https://github.com/m4zekeeper).
-
-Ogni skill sta in una cartella propria, con una pagina che spiega a cosa serve e come si usa.
+Skill di Claude per i processi di design UX e UI di Conflux. Nascono dal lavoro quotidiano dello studio e sono pensate per i designer del team. Il repository è un progetto indipendente, sviluppato da un designer di Conflux e non gestito ufficialmente dallo studio.
 
 Le skill si installano in Claude Code come plugin. Il repository funziona da catalogo: lo si aggiunge una volta, poi si installano le skill che servono.
 
