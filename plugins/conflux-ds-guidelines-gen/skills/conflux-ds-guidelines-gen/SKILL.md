@@ -4,7 +4,7 @@ description: >-
   Usala quando l'utente vuole documentare le regole di un design system o di una design library in Figma, perché designer nuovi (ed eventualmente Claude) lavorino rispettando come il file è costruito: naming di pagine, layer, componenti, proprietà, token, flussi e schermate, e le procedure di lavoro. Produce un pacchetto di documenti da un'unica base di regole: il Regolamento (regole con ID, per chi deve rimanere sul pezzo e per l'IA), la Guida di onboarding (narrativa, per chi entra nel progetto), le Violazioni (l'elenco di ciò che nel file di oggi non segue le regole e va corretto) e il file Start, che indica l'ordine di lettura. Trigger: "documento di onboarding del design system", "onboardare i designer sulla library", "regole del DS", "linee guida tecniche del file Figma", "convenzioni di naming della library", "documento di riferimento per Claude sul design system", "aggiungi una regola al regolamento", "riallinea il regolamento al file", o un link figma.com a una library con la richiesta di estrarne le regole. Vale anche quando l'utente vuole aggiungere una regola di processo a un regolamento già esistente o verificare se il regolamento è ancora allineato al file. NON serve a costruire o modificare componenti in Figma, a fare una critica visiva o di accessibilità di schermate, né a generare codice dal design.
 ---
 
-# Conflux DS Guidelines Gen — dal file Figma al Regolamento e alla Guida di onboarding
+# Conflux Design System Guidelines Generator — dal file Figma al Regolamento e alla Guida di onboarding
 
 Questa skill trasforma un design system in Figma in un pacchetto di documenti markdown che vivono nella stessa cartella e si aggiornano sempre insieme.
 

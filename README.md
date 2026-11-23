@@ -8,7 +8,7 @@ Le skill si installano in Claude Code come plugin. Il repository funziona da cat
 
 | Skill | Nome per l'installazione | A cosa serve | Versione |
 | --- | --- | --- | --- |
-| [Conflux Design System Guidelines Generator](plugins/conflux-ds-guidelines-gen/README.md) | `conflux-ds-guidelines-gen` | Documenta le regole di un design system in Figma e produce Regolamento, Guida di onboarding e Violazioni | 0.1.0 |
+| [Conflux Design System Guidelines Generator](plugins/conflux-ds-guidelines-gen/README.md) | `conflux-ds-guidelines-gen` | Documenta le regole di un design system in Figma e produce Regolamento, Guida di onboarding e Violazioni | 0.1.1 |
 
 ## Installazione
 
