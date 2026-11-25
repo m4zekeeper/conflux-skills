@@ -21,6 +21,41 @@ La skill scrive quattro documenti markdown in una cartella. I quattro documenti 
 | `02_Regole.md` | Il Regolamento: ogni regola con un ID stabile | Chi lavora sul file, e l'IA |
 | `03_Violazioni.md` | Ciò che nel file di oggi non segue le regole, con la forma corretta e l'azione da fare | Chi mantiene il design system |
 
+## Cosa fa questa skill
+
+### Analisi del file Figma
+
+- Legge la struttura delle pagine: prefissi, sezioni, ordine e pagine di servizio come esplorazioni, changelog e mirror di piattaforma.
+- Legge variabili e collection: nomi, mode, alias, scope, description e code syntax. Distingue i token primitivi dai token semantici.
+- Legge gli stili di testo, colore, effetto e griglia, e ne ricava la convenzione di nome e la scala.
+- Legge componenti e proprietà: nomi, assi di variante, ordine dei valori, proprietà booleane, di testo, instance swap e slot, description.
+- Riconosce i nomi con più significati, per esempio un asse `Type` che in un componente indica il colore semantico e in un altro la forma.
+- Distingue la documentazione scritta dal team da quella del kit di partenza, e chiede all'owner quale delle due descrive il lavoro del team.
+- Segnala le istanze che vengono da library esterne e i componenti che non esistono più nel file.
+- Legge i file di lavoro con flussi e schermate, se esistono, e ne ricava le convenzioni di naming e gli stati delle Section.
+
+### Regole
+
+- Considera una forma una convenzione quando la seguono almeno due terzi degli elementi, e riporta sempre il conteggio.
+- Chiede all'owner solo i conflitti, i fatti che il file non contiene e le scelte che cambiano variabili già usate dallo sviluppo.
+- Propone regole di default per le pratiche di lavoro: fonti ammesse, naming dei layer, detach, token, creazione e deprecazione dei componenti, accessibilità secondo WCAG 2.2 AA.
+- Propone le regole per l'organizzazione dei file di lavoro anche quando quei file non esistono ancora.
+- Dà a ogni regola un ID stabile, un dominio e una fonte: file, documentazione del file, standard o owner.
+
+### Manutenzione dei documenti
+
+- **Modalità "Aggiungi regola"**: formalizza una regola nuova o corretta, controlla duplicati e contraddizioni, conta gli elementi del file che la violano e assegna l'ID.
+- **Modalità "Riallinea"**: ripete l'analisi sul file cambiato, segnala regole non più rispettate, convenzioni nuove e violazioni risolte, e aggiorna i documenti dopo la conferma dell'owner.
+- Converte le cartelle create da versioni precedenti della skill.
+
+## Cosa non fa questa skill
+
+- Non modifica di propria iniziativa le regole decise dall'owner: segnala la differenza e chiede.
+- Non modifica il file Figma: l'analisi è in sola lettura, e le correzioni elencate nelle Violazioni restano al team.
+- Non costruisce componenti, non fa critiche visive o di accessibilità delle schermate e non genera codice.
+- Non lavora senza l'owner: l'intervista e l'Elenco di revisione sono parte del processo.
+- Nei gruppi con più di 300 componenti, stili o variabili lavora su statistiche e su un campione, e lo dichiara nelle Violazioni.
+
 ## Come funziona
 
 La skill lavora con l'owner, cioè il designer responsabile del design system. La skill decide da sola tutto ciò che può decidere con buona accuratezza, e chiede all'owner solo i punti che il file e gli standard non chiudono.
@@ -29,11 +64,6 @@ La skill lavora con l'owner, cioè il designer responsabile del design system. L
 2. **Analisi del file.** La skill legge il file Figma in sola lettura e ricava le convenzioni dominanti, cioè le forme seguite da almeno due terzi degli elementi. Gli elementi che deviano finiscono nelle Violazioni.
 3. **Intervista all'owner.** La skill chiede il contesto, fa scegliere la regola dove nel file convivono due forme, e raccoglie i fatti che solo il team conosce. In chiusura mostra un Elenco di revisione con le regole decise da sola, e l'owner toglie o corregge ciò che non vuole.
 4. **Stesura.** La skill scrive i quattro documenti. Nel Regolamento entrano solo regole approvate dall'owner.
-
-Oltre alla creazione del pacchetto, la skill ha altre due modalità:
-
-- **Aggiungi regola**: l'owner porta una regola nuova o corregge una regola esistente, e la skill aggiorna i documenti;
-- **Riallinea**: il file Figma è cambiato, e la skill confronta il Regolamento con il file e propone gli aggiornamenti.
 
 ## Cosa serve
 
